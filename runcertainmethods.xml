@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite 3" verbose="1" >
+    <test name="Test Suite 3">
+        <classes>
+            <class name="com.techproed.smoketest.Day18_02FHCLoginNegativeTest">
+                <methods>
+                    <!--exclude==>haric digerleri     iki farkli class'tan ayri methodlari test edelim
+                    include==>sadece bu methodu dahil et-->
+                    <exclude name="gecersizUsername"></exclude>
+
+                </methods>
+            </class>
+            <class name="com.techproed.smoketest.Day19_01NegativeTest">
+                <methods>
+                    <include name="gecersizPassword">
+
+                    </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

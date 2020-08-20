@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suit 2" verbose="1">
+    <test name="Login Test Suite">
+      <classes>
+          <class name="com.techproed.smoketest.Day18_02FHCLoginNegativeTest"></class>
+          <class name="com.techproed.smoketest.Day18_03FHCLoginPositiveTest"></class>
+          <class name="com.techproed.smoketest.Day18_01FaceLoginTest"></class>
+          <!-- grup testi yapmak icin actik en sonunda file==>saveall-->
+      </classes>
+    </test>
+</suite>
